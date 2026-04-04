@@ -27,6 +27,10 @@ Kurz gesagt:
 ✔ Funktioniert zuverlässig
 🔧 Wird kontinuierlich verbessert
 
+
+
+
+
 ⚡ Leistung & technische Daten
 Max. Ladeleistung: ~60 W
 Max. Ladestrom: ~10 A (geregelt)
@@ -34,6 +38,10 @@ Spannungsbereich: 2.0 V – 4.2 V pro Zelle
 Gesamtspannung: bis ~8.4 V
 Strommessung: INA219 (Shunt 5 mΩ)
 Regelung: PI-Regler + Ramp-Logik
+
+
+
+
 🎯 Hauptfunktionen
 🔋 Lade- & Energieverwaltung
 PI-geregelter Strom
@@ -71,6 +79,10 @@ saubere Pulssteuerung
 UI ohne Flackern (Update nur bei Änderung)
 praxisorientiertes Design
 optimiert für reproduzierbare Schweißpunkte
+
+
+
+
 🛠️ Hardware
 STM32 (z. B. Bluepill)
 ILI9341 Display
