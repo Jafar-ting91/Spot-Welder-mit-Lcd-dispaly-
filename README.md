@@ -90,7 +90,24 @@ INA219
 Rotary Encoder
 MOSFET Leistungsstufe
 2x Kondensator/Zellen
+
+
 2x NTC Sensoren
 🚀 Ziel
 
 Ein zuverlässiger und präziser DIY-Spotwelder, der einfach zu bedienen ist und gleichzeitig volle Kontrolle über Energie und Schweißparameter bietet.
+
+
+
+
+
+## 💖 Support this project
+
+If you like this project and want to support its development:
+
+👉 https://paypal.me/Zaharg
+
+Thank you! 🙏
+
+
+
