@@ -1,101 +1,98 @@
-🔧 Spot-Welder-60W10A (STM32)
+# STM32 Capacitor Spot Welder with TFT Display
 
-Ein kompakter, mikrocontrollergesteuerter Kondensator-Spotwelder mit TFT-Interface, präziser Lade- und Pulssteuerung sowie umfangreichen Schutz- und Einstellfunktionen.
+DIY capacitor spot welder based on STM32 with TFT display, adjustable welding pulses, configurable charging control and safety features.
 
-Dieses Projekt ist eine Firmware für einen selbstgebauten Spotwelder auf STM32-Basis, ausgelegt für kontrolliertes Punktschweißen mit einstellbaren Pulsen und stabiler Energieverwaltung.
+![Spot Welder Overview](images/spotwelder-overview.jpg)
 
+## Overview
 
+This project is a self-built capacitor spot welder based on an STM32 microcontroller.  
+It is designed for controlled battery tab welding with adjustable pulse settings, TFT user interface, voltage monitoring and configurable protection features.
 
+### Proven in real use
 
+- **Version 1:** over **100,000 weld points**
+- **Current version:** over **30,000 weld points**
 
+This is not just a prototype – the device has already been used extensively in practical operation.
 
-⚠️ Projektstatus
+## Main Features
 
+- STM32-based control
+- TFT display with menu interface
+- Adjustable welding pulses
+- Configurable pulse / pause / pulse timing
+- Voltage monitoring
+- Temperature monitoring
+- Adjustable charge control
+- Safety limits and warning thresholds
+- Rotary encoder based user input
 
-🟡 Aktiv in Entwicklung
+## User Interface
 
-Die aktuelle Version ist voll funktionsfähig und wird im praktischen Einsatz verwendet.
-Alle Hauptfunktionen (Laden, Schweißen, Anzeige, Schutzmechanismen) laufen stabil.
+## Bilder / Images
 
-👉 Trotzdem gilt:
+### Fertiges Punktschweißgerät
+![Spotwelder](images-spotwelder-overview.jpg)
 
-Einige Bereiche sind noch in Optimierung
-UI und Regelverhalten werden weiter verbessert
-Code wird laufend aufgeräumt und erweitert
+### Bedienoberfläche
+![Display](images-display.jpg)
 
-Kurz gesagt:
-✔ Funktioniert zuverlässig
-🔧 Wird kontinuierlich verbessert
+### Einstellungen
+![Settings](images-display-settings.jpg)
 
+### Elektronik
+![PCB](images-pcb-front.jpg)
 
+### Weitere Ansicht
+![Hardware](images-display-top.jpg)
 
+## Project Status
 
+**Active development**  
+The spot welder is functional and used regularly in real-world applications.
 
-⚡ Leistung & technische Daten
-Max. Ladeleistung: ~60 W
-Max. Ladestrom: ~10 A (geregelt)
-Spannungsbereich: 2.0 V – 4.2 V pro Zelle
-Gesamtspannung: bis ~8.4 V
-Strommessung: INA219 (Shunt 5 mΩ)
-Regelung: PI-Regler + Ramp-Logik
+## Notes
 
+This project is intended for users with experience in electronics and high-current systems.  
+Working with capacitor discharge systems and battery welding can be dangerous if handled improperly.
 
+## License
 
+Apache-2.0
 
-🎯 Hauptfunktionen
-🔋 Lade- & Energieverwaltung
-PI-geregelter Strom
-Leistungsbegrenzung (Watt)
-Softstart + dynamische Anpassung
-⚙️ Schweißsteuerung
-Puls 1 / Puls 2 (ms einstellbar)
-Puls-Pause einstellbar
-Auto- und Hand-Trigger
-Trigger-Verzögerung mit Progress-Bar
-🌡️ Schutzfunktionen
-Temperaturüberwachung (2 Sensoren)
-Über-/Unterspannungsschutz
-automatische Entladung bei Bedarf
-🔄 Balancing
-automatische Zellangleichung
-Schutz vor Spannungsdrift
-🖥️ Anzeige & Bedienung
-TFT Display (ILI9341)
-Encoder-Steuerung
-Echtzeitdaten:
-Spannung
-Strom
-Leistung
-Temperatur
-Status
-💾 Zusatzfunktionen
-EEPROM Speicherung
-Schweißzähler
-Offset-Kalibrierung
-integrierte Stoppuhr
-🧠 Besonderheiten
-stabile und ruhige Regelung
-saubere Pulssteuerung
-UI ohne Flackern (Update nur bei Änderung)
-praxisorientiertes Design
-optimiert für reproduzierbare Schweißpunkte
+---
 
+# Deutsch
 
+## Übersicht
 
+Dies ist ein selbstgebautes Punktschweißgerät auf STM32-Basis mit TFT-Display.  
+Es ist für kontrolliertes Akkuschweißen ausgelegt und bietet einstellbare Schweißpulse, Spannungsüberwachung, Temperaturüberwachung sowie verschiedene Schutzfunktionen.
 
-🛠️ Hardware
-STM32 (z. B. Bluepill)
-ILI9341 Display
-INA219
-Rotary Encoder
-MOSFET Leistungsstufe
-2x Kondensator/Zellen
+### In der Praxis bewährt
 
+- **Version 1:** über **100.000 Schweißpunkte**
+- **Aktuelle Version:** über **30.000 Schweißpunkte**
 
-2x NTC Sensoren
-🚀 Ziel
+Das Projekt ist also nicht nur ein Prototyp, sondern wurde bereits intensiv praktisch eingesetzt.
 
-Ein zuverlässiger und präziser DIY-Spotwelder, der einfach zu bedienen ist und gleichzeitig volle Kontrolle über Energie und Schweißparameter bietet.
+## Hauptfunktionen
+
+- STM32-basierte Steuerung
+- TFT-Display mit Menüoberfläche
+- Einstellbare Schweißpulse
+- Konfigurierbare Puls-/Pausenzeiten
+- Spannungsüberwachung
+- Temperaturüberwachung
+- Einstellbare Ladeparameter
+- Schutz- und Warnschwellen
+- Bedienung per Drehencoder
+
+## Projektstatus
+
+**Aktiv in Entwicklung**  
+Das Gerät ist funktionsfähig und wird regelmäßig im praktischen Einsatz verwendet.
 
 
 
