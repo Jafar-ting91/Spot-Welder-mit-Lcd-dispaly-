@@ -2,7 +2,7 @@
 
 DIY capacitor spot welder based on STM32 with TFT display, adjustable welding pulses, configurable charging control and safety features.
 
-![Spot Welder Overview](images/spotwelder-overview.jpg)
+
 
 ## Overview
 
