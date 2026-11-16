@@ -47,6 +47,9 @@ This is not just a prototype – the device has already been used extensively in
 ### Weitere Ansicht
 ![Hardware](images-display-top.jpg)
 
+
+https://www.youtube.com/shorts/AOGnJJayBls
+
 ## Project Status
 
 **Active development**  
